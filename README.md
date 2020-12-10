@@ -29,7 +29,7 @@ REQUIREMENTS MODULES
 
 This module requires the following modules:
 
- * Panda (https://pandas.pydata.org/)
+ * Pandas (https://pandas.pydata.org/)
  * Numpy (https://numpy.org/)
  * Matplotlib (https://matplotlib.org/)
  * PyTorch (https://pytorch.org/)
@@ -42,7 +42,7 @@ This module requires the following modules:
 INSTALLATION
 ------------
 Install as you would normally install modules
- * Panda 
+ * Pandas
  ```
  $ pip install pandas
    ```
@@ -76,7 +76,30 @@ $ python -m pip install .
  
 FILES DESCRIPTION
 ------------
- * Data: Directory of 
+ Directory
+ * Data: directory of dataset
+ * Overview: directory of overview ipynb file
+ * Parameter Tuning: directory of ipynb file for parameter selection
+ 
+ Files
+ * data_overview: data information, descriptions and plots
+ * main: main file with Data class and Config class
+ * model: model file with Net class, train, predict and evaluate methods
+ * arima: ARIMA model for stocks prediction (for comparison)
+ 
+ 
+MAINTAINERS
+-----------
+Current maintainers:
+ * Haoqi Gu - haoqigu@bu.edu
+ * Fengxu Tu - fengxutu@bu.edu
+ * Junwei Li - jly8@bu.edu
+ * Jingyi Li - ljy668@bu.edu
+ 
+
+
+ 
+ 
  
  
  
