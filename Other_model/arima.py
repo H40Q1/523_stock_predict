@@ -9,7 +9,7 @@ import math
 stocks = ["AAPL", "AMZN", "FB"]
 for i in range(len(stocks)):
     stock = stocks[i]
-    path = "./data/" + stock + ".csv"
+    path = "./Data/" + stock + ".csv"
     df = pd.read_csv(path, header=0)
     print("Stock name:", stock)
     print()
