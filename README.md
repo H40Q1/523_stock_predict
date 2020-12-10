@@ -39,9 +39,44 @@ This module requires the following modules:
  
  
  
+INSTALLATION
+------------
+Install as you would normally install modules
+ * Panda 
+ ```
+ $ pip install pandas
+   ```
+ * Numpy 
+  ```
+ $ pip install numpy
+   ```
+ * Matplotlib: install from source (recommended)
+  ```
+$ python -m pip install .
+   ```
+ * PyTorch 
+  ```
+ $ pip install torch
+   ```
+ * Torchnlp 
+  ```
+ $ pip install pytorch-nlp
+   ```
+ * Statsmodels
+  ```
+ $ pip install statsmodels
+   ```
+ * Sklearn
+  ```
+ $ pip install -U scikit-learn
+   ```
+
  
  
  
+FILES DESCRIPTION
+------------
+ * Data: Directory of 
  
  
  
