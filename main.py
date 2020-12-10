@@ -7,7 +7,7 @@ from model import train, loss_plot, predict, evaluate
 class Config_Tuning():
     def __init__(self, hidden_size=100, time_step=20, lstm_layers=2, learning_rate=0.00005,
                  epoch=20, batch_size=64, label_columns=[1, 4], feature_start=1, feature_end=7,
-                 data_path="./data/AAPL.csv", stock_name = "AAPL"):
+                 data_path="./Data/AAPL.csv", stock_name = "AAPL"):
         self.feature_columns = list(range(feature_start, feature_end))  # feature columns' indecies
         self.label_columns = label_columns  # predicted feature columns' indecies
         self.label_in_feature_index = (lambda x, y: [x.index(i) for i in y])(self.feature_columns, self.label_columns)
