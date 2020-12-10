@@ -76,10 +76,10 @@ $ python -m pip install .
  
 FILES DESCRIPTION
 ------------
- Directory
- * Data: directory of dataset
- * Overview: directory of overview ipynb file
- * Parameter Tuning: directory of ipynb file for parameter selection
+ Folders
+ * Data: folder of dataset
+ * Overview: folder of project overview ipynb file
+ * Parameter Tuning: folder of ipynb file for parameter selection
  
  Files
  * data_overview: data information, descriptions and plots
@@ -87,7 +87,13 @@ FILES DESCRIPTION
  * model: model file with Net class, train, predict and evaluate methods
  * arima: ARIMA model for stocks prediction (for comparison)
  
- 
+USAGE
+------------
+  ```
+ python main.py
+   ```
+   
+
 MAINTAINERS
 -----------
 Current maintainers:
