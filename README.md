@@ -86,12 +86,20 @@ FILES DESCRIPTION
  * main: main file with Data class and Config class
  * model: model file with Net class, train, predict and evaluate methods
  * arima: ARIMA model for stocks prediction (for comparison)
+ * args: read parameter arguments from command line
  
 USAGE
 ------------
-  ```
- python main.py
-   ```
+
+ ```
+python main.py [--hidden-size HIDDEN_SIZE]
+               [--step TIME_STEP] [--layer LSTM_LAYERS]
+               [--learning-rate LEARNING_RATE]
+               [--epochs EPOCHS] [--batch-size BATCH_SIZE] 
+               [--stock-path STOCK_PATH]
+               [--stock-name STOCK_NAME]
+               
+```
    
 
 MAINTAINERS
