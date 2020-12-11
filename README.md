@@ -20,7 +20,7 @@ In this project, we will use a deep learning(DL)-based method to predict stock m
    https://youtu.be/Gp-2gFkL2AY
 
  * For a detailed report, visit the final report of this project:
-   https://docs.google.com/document/d/1fI3ijNHPgbyYqFMXy6S5-oZd1ZymNAla/edit
+   https://github.com/H40Q1/523_stock_predict/blob/main/Stock%20Price%20Predict.pdf
    
    
    
