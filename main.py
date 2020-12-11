@@ -2,12 +2,12 @@ import pandas as pd
 import numpy as np
 import os
 from model import train, loss_plot, predict, evaluate
-
+from args import get_arguments
 
 class Config_Tuning():
     def __init__(self, hidden_size=100, time_step=20, lstm_layers=2, learning_rate=0.00005,
-                 epoch=20, batch_size=64, label_columns=[1, 4], feature_start=1, feature_end=7,
-                 data_path="./Data/AAPL.csv", stock_name = "AAPL"):
+                 epoch=200, batch_size=64, label_columns=[1, 4], feature_start=1, feature_end=7,
+                 data_path="./data/AAPL.csv", stock_name = "AAPL"):
         self.feature_columns = list(range(feature_start, feature_end))  # feature columns' indecies
         self.label_columns = label_columns  # predicted feature columns' indecies
         self.label_in_feature_index = (lambda x, y: [x.index(i) for i in y])(self.feature_columns, self.label_columns)
@@ -148,5 +148,9 @@ def main(config):
 
 
 if __name__=="__main__":
-    config = Config_Tuning()
+    args = get_arguments()
+    config = Config_Tuning(hidden_size=args.hidden_size, time_step=args.step, lstm_layers=args.layer,
+                                  learning_rate=args.learning_rate, epoch=args.epochs, batch_size= args.batch_size,
+                                  data_path=args.stock_path,
+                                 stock_name= args.stock_name)
     main(config)
