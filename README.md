@@ -100,6 +100,10 @@ python main.py [--hidden-size HIDDEN_SIZE]
                [--stock-name STOCK_NAME]
                
 ```
+
+Report
+-----------
+See [`Report/Stock Price Predict.pdf`](./Report)
    
 
 MAINTAINERS
