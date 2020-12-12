@@ -101,7 +101,7 @@ python main.py [--hidden-size HIDDEN_SIZE]
                
 ```
 
-Report
+REPORT
 -----------
 See [`Report/Stock Price Predict.pdf`](./Report)
    
