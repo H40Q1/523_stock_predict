@@ -7,6 +7,7 @@ CONTENTS OF THIS FILE
  * Required Modules
  * Installation
  * Files Description
+ * Report
  * Maintainers
 
 INTRODUCTION
@@ -78,7 +79,8 @@ FILES DESCRIPTION
 ------------
  Folders
  * Data: folder of dataset
- * Overview: folder of project overview ipynb file
+ * Figures: folder of project plots
+ * Report: folder of project final report and presentation slides
  * Parameter Tuning: folder of ipynb file for parameter selection
  
  Files
